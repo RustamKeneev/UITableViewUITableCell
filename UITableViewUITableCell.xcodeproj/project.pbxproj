@@ -19,6 +19,7 @@
 		FF4CC5B3262302A7001478F3 /* UITableViewUITableCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC5B2262302A7001478F3 /* UITableViewUITableCellTests.swift */; };
 		FF4CC5BE262302A7001478F3 /* UITableViewUITableCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC5BD262302A7001478F3 /* UITableViewUITableCellUITests.swift */; };
 		FF4CC5DA2623739E001478F3 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC5D92623739E001478F3 /* BaseTableViewCell.swift */; };
+		FF4CC5DF262376C1001478F3 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC5DE262376C1001478F3 /* MainCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		FF4CC5BD262302A7001478F3 /* UITableViewUITableCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewUITableCellUITests.swift; sourceTree = "<group>"; };
 		FF4CC5BF262302A7001478F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF4CC5D92623739E001478F3 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		FF4CC5DE262376C1001478F3 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 			children = (
 				FF4CC59F262302A5001478F3 /* MainViewController.swift */,
 				FF4CC5D92623739E001478F3 /* BaseTableViewCell.swift */,
+				FF4CC5DE262376C1001478F3 /* MainCell.swift */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				FF4CC5A0262302A5001478F3 /* MainViewController.swift in Sources */,
 				FF4CC59C262302A5001478F3 /* AppDelegate.swift in Sources */,
 				FF4CC59E262302A5001478F3 /* SceneDelegate.swift in Sources */,
+				FF4CC5DF262376C1001478F3 /* MainCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
