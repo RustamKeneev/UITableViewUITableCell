@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import SnapKit
 class BaseTableViewCell: UITableViewCell {
     var isLoaded = false
     

@@ -6,10 +6,14 @@
 //
 
 import UIKit
+import SnapKit
 
 class MainCell: BaseTableViewCell {
+    
     var label = UILabel()
+    
     override func addSubview() {
+        addSubview(label)
         label.snp.makeConstraints{(make) in
             make.center.equalTo(self)
         }
